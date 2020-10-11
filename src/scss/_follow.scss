@@ -1,0 +1,40 @@
+.follow-us {
+  width: 100vw;
+  height: 70vh;
+  background-image: url("../../assets/img/banner_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f7b733;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: whitesmoke;
+  }
+
+  .login-steam {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    background-color: #f7b733;
+    border-radius: 0.5rem;
+  }
+}

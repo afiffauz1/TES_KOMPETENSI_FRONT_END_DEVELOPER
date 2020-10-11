@@ -1,0 +1,17 @@
+footer {
+  width: 100vw;
+  background-color: #323232;
+  padding: 2rem;
+  color: white;
+
+  .content {
+    width: 30%;
+    h4 {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+}

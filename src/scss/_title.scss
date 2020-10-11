@@ -1,0 +1,65 @@
+.title-view {
+  width: 90vw;
+  margin: 2.5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 1rem;
+  background-image: url("../../assets/img/banner_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.title-action {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+}
+
+.action {
+  width: 100px;
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.2s;
+
+  .action-logo {
+    width: 40px;
+    img {
+      width: 100%;
+    }
+  }
+
+  p {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.75rem;
+    color: black;
+  }
+
+  &:hover {
+    background-color: #ddd;
+  }
+}
+
+.title {
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    font-style: italic;
+  }
+  p {
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+  }
+}

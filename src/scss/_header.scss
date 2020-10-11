@@ -1,0 +1,151 @@
+header {
+  width: 100vw;
+  background-color: #323232;
+  color: white;
+}
+
+.header-view {
+  width: 90%;
+  margin: auto;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+
+  p {
+    margin-right: 0.4rem;
+    font-weight: 500;
+  }
+}
+
+.btnSelectLanguage {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem;
+  color: white;
+  background-color: transparent;
+  border-radius: 0.3rem;
+
+  div {
+    width: 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    background-color: #434343;
+  }
+}
+
+.language-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 1px 4px 0 rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  margin-top: 8px;
+  width: 80px;
+  border-radius: 0.4rem;
+
+  .lan-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.8rem;
+    color: #323232;
+
+    .flags {
+      width: 16px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &:hover {
+      background-color: #eeeeee;
+    }
+  }
+}
+
+.language-content.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.social {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  p {
+    margin-right: 0.5rem;
+  }
+
+  .social-item {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+  }
+
+  .social-logo {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
+
+.share {
+  display: flex;
+
+  .share-btn {
+    background-color: #323232;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    transition: 0.2s;
+    padding: 0.4rem;
+    width: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.3rem;
+
+    .btn-logo {
+      width: 20px;
+      height: 20px;
+
+      img {
+        width: 100%;
+        background-color: white;
+      }
+    }
+
+    &:hover {
+      background-color: #434343;
+    }
+  }
+}

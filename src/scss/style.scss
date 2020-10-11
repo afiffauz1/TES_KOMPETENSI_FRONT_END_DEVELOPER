@@ -1,0 +1,128 @@
+@import "reset";
+@import "default";
+@import "header";
+@import "title";
+@import "total";
+@import "recent";
+@import "trending";
+@import "follow";
+@import "footer";
+
+.center {
+  text-align: center;
+}
+
+.heading2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.gray {
+  color: #bdc3c7;
+}
+
+.yellow {
+  color: #fdc830;
+}
+
+.red {
+  color: #ff5e62;
+}
+
+.pink {
+  color: #ff0099;
+}
+
+.purple {
+  color: #654ea3;
+}
+
+.blue {
+  color: #009fff;
+}
+
+@media screen and (max-width: 700px) {
+  .header-view {
+    justify-content: center;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .share {
+    display: none;
+  }
+
+  .title-view {
+    flex-direction: column;
+  }
+
+  .title-action {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+
+  .action {
+    margin: 5px 0;
+  }
+
+  .total-view {
+    display: none;
+  }
+
+  .trending-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .trending-item {
+    width: 100%;
+    margin: 10px 0;
+
+    &:hover {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+
+  .follow-us {
+    padding: 0 0.4rem;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: whitesmoke;
+    }
+
+    p {
+      font-size: 0.8rem;
+      color: whitesmoke;
+    }
+  }
+
+  footer {
+    width: 100vw;
+    background-color: #323232;
+    padding: 0.9rem;
+    color: white;
+    text-align: justify;
+
+    .content {
+      width: 100%;
+      h4 {
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-align: center;
+      }
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
+}
